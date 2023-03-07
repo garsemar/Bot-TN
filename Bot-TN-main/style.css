@@ -3,7 +3,7 @@ html, body{
     margin:0;
     display: flex;
     flex-direction: column;
-    background-image: url("src/fondo.jpg");
+    background-image: url("/fondo");
     opacity: 100%;
 }
 
@@ -29,24 +29,7 @@ html, body{
     float: left;
     width: 30%;
 }
-/*
-#buscador_cabecera{
-    color: blue;
-    font-size: 17px;
-    text-align: left;
-    float: left;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 3%;
-    width: 30%;
-    border: green 3px solid;
-    border-radius: 25px;
-    background-color: rgb(151, 225, 151);
-}
-#buscador_cabecera:focus{
-    outline: none;
-}
-*/
+
 #login_cabecera{
     color: blue;
     text-align: right;
@@ -94,33 +77,31 @@ html, body{
     width: 100%;
     background-color: rgb(27, 27, 27);
     height: 7%;
-    padding-top: 1.5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 .footer-basic ul {
-    padding:0;
     list-style:none;
     text-align:center;
-    font-size:18px;
+    font-size:110%;
     line-height:1.6;
-    margin-bottom:0;
-    display: inline;      
-  }
+    flex-direction: row;
+}
   
-  .footer-basic li {
-    padding:0 10px;
+.footer-basic li {
     color: aliceblue;
-    display: inline;
-    margin-left: 4%;
-    margin-right: 4%;
-  }
-  
-  .footer-basic ul a {
+    display: inline-flex;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.footer-basic ul a {
     color:inherit;
     text-decoration:none;
     opacity:0.8;
-  }
-  
-  .footer-basic ul a:hover {
+}
+
+.footer-basic ul a:hover {
     opacity:1;
-  }
+}
